@@ -25,7 +25,7 @@ AOS.init({
   anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
 });
 
-var mymap = L.map('mapid').setView([51.404, -0.09], 13);
+var mymap = L.map('mapid').setView([30.3165, 78.0322], 13);
 
 L.tileLayer(
   'https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}',
